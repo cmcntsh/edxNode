@@ -44,7 +44,7 @@ This will install the latest version of Node 14:
 
  
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/cmcntsh/edxNode/blob/main/nvm_install_14.png?raw=true)
 
  
 
