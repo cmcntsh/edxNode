@@ -55,6 +55,51 @@ We can verify that Node is installed, and which version, with the following comm
 node -v
 
 Congratulations, we now have the right setup on our macOS or Linux machine to proceed with the course.
+
+## Windows
+In this section, we will look at installing Node.js on Windows 10 and up. As a non-Windows user feel free to skip this section.
+
+While nvm is recommended for macOS and Linux, and there is an unaffiliated nvm-windows version manager, the recommended version manager for Windows is nvs. The nvs version manager is actually cross-platform so it can be used on macOS and Linux but nvm is a lot more popular.
+
+To install nvs on Windows go to the release page and download the MSI installer file of the latest release:
+
+ 
+![alt text](https://github.com/cmcntsh/edxNode/blob/main/Release_page_screenshot_-_nvs_on_Windows.png?raw=true)
+Release page screenshot - nvs on Windows.png
+
+ 
+
+If a later release than v1.5.4 is available, download the MSI for that release. Once downloaded, run the installer and follow the steps to install. After it is installed open a cmd.exe or powershell prompt and run the following:
+
+nvs add 14
+
+This should result in the latest version of Node 14 being installed:
+
+ 
+![alt text](https://github.com/cmcntsh/edxNode/blob/main/nvs_add_14_Windows_Command_Prompt.png?raw=true)
+nvs add 14 Windows Command Prompt
+
+ 
+
+In this case the command installed Node v14.15.1, it doesn't matter if the right-most numbers are higher for this course, as long as the major number (the first number) is 14.
+
+To activate the newly installed version we also need to run the following command:
+
+nvs use 14
+
+This should result in output similar to the following:
+
+ 
+![alt text](https://github.com/cmcntsh/edxNode/blob/main/nvs_use_14_Windows_output.png?raw=true)
+nvs use 14 Windows output
+
+ 
+
+We can verify that Node is installed, and which version, with the following command:
+
+node -v
+
+Congratulations, we now have the right setup on our Windows machine to proceed with the course.
   
 </details>
 
