@@ -1,0 +1,5 @@
+# Services
+
+## Overview
+Professionally speaking, the ability to rapidly create services with mock data that can run locally is a useful skill. Sometimes we might have limited or even no access to services we're integrating with. Possibly because they've not been created yet or possibly because of slow-performance of staging or down-time or a temporary permissions issue. Sometimes staging environments that we could integrate our local development with are shared among teams and we can end up with unexpected results because another developer has triggered a state change in the staging environment. Ideally we could run instances of production services with their own local state on our machine and integrate with those. However, organizations haven't always achieved this capability. Another reason for mock services is rapid prototyping, this is especially convenient in situations where client-side development has the advantage of being able to specify the data model. For these situations and probably more besides, we can create mock services. In this chapter we'll explore how to create mock services quickly and efficiently with Node.js.
+
